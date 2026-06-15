@@ -1,0 +1,52 @@
+.item_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+body.dark .task{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+.task {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+.removeBTN{
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.editBtn{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(168, 168, 110);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.completed{
+    text-decoration: line-through;
+}
+.complete{
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+button{
+    cursor: pointer;
+}
+.inputCard{
+    width: 100%;
+}

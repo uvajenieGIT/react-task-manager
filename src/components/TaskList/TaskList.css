@@ -1,0 +1,10 @@
+.task_container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 35px;
+}
+.empty{
+    font-size: 30px;
+    font-weight: bold;
+}

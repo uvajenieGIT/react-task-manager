@@ -1,0 +1,19 @@
+.filter_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.allBtn,.completedBTN,.activeBTN{
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.active{
+  font-weight: bold;
+  border: 3px solid black;
+}

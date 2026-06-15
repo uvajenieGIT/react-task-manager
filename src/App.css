@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1040px;
+    height: 1200px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+body.dark{
+    color: white;
+    background-color: black;
+}
+body.dark .container{
+    border: 1px solid white;
+}

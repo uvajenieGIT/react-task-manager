@@ -1,0 +1,41 @@
+.form_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+
+}
+body.dark input{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.buttonAdd{
+    width: 400px;
+    height: 40px;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.theme{
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
