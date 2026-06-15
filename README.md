@@ -24,4 +24,4 @@ A modern, high-performance To-Do application built with React. The project featu
 
 1. **Clone the repository:**
 ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com//uvajenieGIT/react-task-manager)

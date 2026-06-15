@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
-body {
-    color: #1a1a1a;
-    background-color: #ffffff;
-    transition: background-color 0.3s ease, color 0.3s ease; 
+
+body.light {
+    color: #1a1a1a !important;
+    background-color: #ffffff !important;
+}
+
+
+body.dark {
+    color: #ffffff !important;
+    background-color: #000000 !important;
 }
 
 .container {
@@ -19,11 +25,11 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
+    transition: border-color 0.3s ease;
 }
 
-body.dark {
-    color: white;
-    background-color: black;
+body.light .container {
+    border: 1px solid #1a1a1a;
 }
 
 body.dark .container {
