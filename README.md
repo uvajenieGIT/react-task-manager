@@ -2,9 +2,9 @@
 
 A modern, high-performance To-Do application built with React. The project features clean architecture by separating business logic from the UI using custom React hooks.
 
-[🔗 Live Demo on Vercel](ВСТАВЬ_СЮДА_ССЫЛКУ_ПОСЛЕ_ДЕПЛОЯ)
+[🔗 Live Demo on Vercel](https://react-task-manager-jet.vercel.app/)
 
-## ✨ Key Features
+## ✨ Key Featuresgi
 
 - **Full CRUD Support:** Create, Read, Update, and Delete tasks seamlessly.
 - **Custom React Hook (`useTasks`):** Architectural separation of concerns. All state management and core business logic are encapsulated inside a custom hook, keeping components clean and maintainable.
